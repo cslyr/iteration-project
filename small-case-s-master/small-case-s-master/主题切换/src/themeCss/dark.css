@@ -1,0 +1,5 @@
+.dark {
+  --primaryColor: white;
+  --backgroundColor: #000;
+  --borderColor: rgb(196, 196, 196);
+}

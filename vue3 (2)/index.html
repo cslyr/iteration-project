@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ZN-CH">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [
+            ['$', '$'],
+            ['\\(', '\\)'],
+          ], // ⾏内公式选择符
+          displayMath: [
+            ['$$', '$$'],
+            ['\\[', '\\]'],
+          ], // 段内公式选择符
+        },
+        options: {
+          skipHtmlTags: [
+            'script',
+            'noscript',
+            'style',
+            'textarea',
+            'pre',
+            'code',
+            'a',
+          ], // 避开某些标签
+          ignoreHtmlClass: 'tex2jax_ignore',
+          processHtmlClass: 'tex2jax_process',
+        },
+      };
+    </script>
+    <script
+      src="/public/js/mathjax.js"
+      id="Ma thJax-script"></script>
+    <title>Vite + Vue</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

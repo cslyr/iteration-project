@@ -1,0 +1,47 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\86131\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add express express-fileup-load
+
+PATH: 
+  C:\Program Files\Java\jdk1.8.0_201\bin;D:\bin\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Bandizip\;C:\Program Files (x86)\dotnet\;D:\;%SCALA_HOME%\bin;C:\Program Files\Go\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Program Files\TortoiseGit\bin;C:\Users\86131\apache-maven-3.6.1\bin;C:\Users\86131\AppData\Local\Google\Chrome\Application;C:\Program Files (x86)\Tencent\微信web开发者工具\dll;C:\ProgramData\chocolatey\bin;C:\redis\Redis-x64-5.0.14.1;C:\Users\86131\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\86131\AppData\Local\pnpm;C:\Users\86131\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\86131\AppData\Local\Programs\Python\Python39\;C:\Users\86131\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2021.2.1\bin;;C:\Users\86131\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.2\bin;;D:\scala-2.11.12\bin;C:\windows\System32\Wbem;C:\Users\86131\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\86131\AppData\Roaming\nvm;C:\Program Files\nodejs
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.20.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npmmirror.com/express-fileup-load: Not found
+      at Request.params.callback [as _callback] (C:\Users\86131\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66145:18)
+      at Request.self.callback (C:\Users\86131\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140890:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (C:\Users\86131\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141862:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (C:\Users\86131\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141784:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1358:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
